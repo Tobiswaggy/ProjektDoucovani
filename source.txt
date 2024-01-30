@@ -1,0 +1,329 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- Ahoj, pokud si toto prohlizis tak te varuju, je v tom hroznej  bordel :D-->
+<html>
+         <head>
+  <style>
+  * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header {
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+nav {
+  float: left;
+  width: 10%;
+  height: 1000px;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ff0000;
+  height: 300px; 
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  padding: 1px;
+  text-align: center;
+  color: silver;
+}
+
+
+.trida1 {color: Blue ;}
+.trida2 {color: Red ;}   
+.trida3 {color: Yellow ;}
+.trida4 {color: Green ;}
+.trida5 {color: Purple ;}
+.trida6 {color: Gray ;}
+.trida7 {color: Black ;}
+
+    .center {
+      
+      margin: 0 auto;
+      
+    }
+
+    .awesome {
+      
+      font-family: futura;
+      font-style: italic;
+      
+      width:100%;
+      
+      margin: 0 auto;
+      text-align: center;
+      
+      color:#313131;
+      font-size:45px;
+      font-weight: bold;
+      -webkit-animation:colorchange 20s infinite alternate;
+      
+      
+    }
+   .tobisek {
+   height:5%; 
+   
+   
+   
+    
+   } 
+
+    @-webkit-keyframes colorchange {
+      0% {
+        
+        color: blue;
+      }
+      
+      10% {
+        
+        color: #8e44ad;
+      }
+      
+      20% {
+        
+        color: #1abc9c;
+      }
+      
+      30% {
+        
+        color: #d35400;
+      }
+      
+      40% {
+        
+        color: blue;
+      }
+      
+      50% {
+        
+        color: #34495e;
+      }
+      
+      60% {
+        
+        color: blue;
+      }
+      
+      70% {
+        
+        color: #2980b9;
+      }
+      80% {
+     
+        color: #f1c40f;
+      }
+      
+      90% {
+     
+        color: #2980b9;
+      }
+      
+      100% {
+        
+        color: pink;
+      }
+    }
+            #fullscreen-link {
+            display: block;
+            margin: 20px;
+            text-decoration: underline;
+        }
+
+        .image-link {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .side-panel {
+            width: 250px; 
+            position: fixed;
+            top: 0; 
+            left: -250px; 
+            height: 100%; 
+            background-color: silver;
+            color: #fff; 
+            padding: 20px; 
+            transition: left 0.3s; 
+        }
+
+        
+
+    
+  </style>
+  
+   <script data-ad-client="" async src=""></script>
+  
+  <title>Doucovani</title>
+  
+  </head>
+  
+  <body>
+  
+  <section>
+  <nav>
+    <ul>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      <li><a href="#"></a></li>
+      
+
+
+<div class="side-panel" id="sidePanel">
+    <h2>MENU</h2>
+          <li><a href="index.html">Hlavní stranka</a></li>
+<li><a href="">Cesky jazyk</a></li>
+<li><a href="">Anglictina</a></li>
+      <li><a href="">Matematika</a></li>
+      <li><a href="">Informatika</a></li>
+<li><a href="">Programovani v jazyce C</a></li>
+<li><a href="">Programovani v jazyce C#</a></li>
+      <li><a href="">Youtube kanál (tutoriály a náucná videa)</a></li>
+
+<div class="tobisek"></div>
+    <button onclick="document.getElementById('sidePanel').style.left = '-250px';">Zavrít panel</button>
+</div>
+
+<button onclick="document.getElementById('sidePanel').style.left = '0';">Otevrít panel</button>
+</ul>
+</nav>
+
+    <div style="text-align: right;">
+        <a href="login.html">Prihlášení</a> | <a href="register.html">Registrace</a>
+
+    </div>
+
+
+
+
+       <div></div> 
+<h3 style="text-align:center"> 
+Aktu&aacute;ln&iacute; verze 1.0 naposledy upravena 6/11/2023 
+</h3>
+<div></div> 
+      <header>
+        <img src="" alt="" title="Hlavicka webu" height="" width="">
+      </header> 
+      
+
+        
+
+        
+        <div></div>
+<center>
+  <p class="awesome" style="text-align:center">Vítej na strance Doucovani!</p>
+</center>
+  <div class="tobisek"></div>
+  
+<center>
+   <h1 style="text-align:center">&lt;&mdash; Poskytujeme ucebn&iacute; materi&aacute;ly pro <strong>3</strong> predmety. Muže&scaron; je naj&iacute;t na panelu vlevo.</h1>
+
+   </center>
+
+<center>
+<p class="trida2"> Nektere funkce na teto strance zatim nemusi 100% fungovat. Pokud naleznes bug, prosim oznam to spravci webu pomoci odkazu dole :)</p>
+</center>
+
+
+<center>
+<p style="text-allign:center" class="trida6">Specializujeme se na ucivo 9. tridy ZS az po 2. rocnik SŠ. Chystame po vas i dalsi rocniky a pripravu na prijimaci zkousky 2024.</p>
+</center>
+
+<center>
+   <h1 style="text-align:center" class="trida1">Pro nahravani vlastnich materialu prosim pouzij tlacitko Príhlásení</h1>
+   </center>
+        <center> 
+<span style="white-space:nowrap;">
+    <p style="text-align:center" class="trida6">
+        Tento projekt byl založen 5. listopadu 2023, což bylo presne pred <strong> <p id="pocetDni" class="trida6"></p> </strong>  <p class="trida6"> dny. </p>
+</span>        
+</center>
+    </p>
+
+
+
+    <script>
+
+        var datum = new Date('2023-11-05');
+
+        var dnes = new Date();
+
+        var rozdil = datum - dnes;
+
+        var pocetDni = Math.floor(rozdil / (1000 * 60 * 60 * 24));
+
+        document.getElementById('pocetDni').textContent = pocetDni;
+    </script>
+
+
+
+<p style="text-align:center" class="trida6">Pracuje na nem <a href="https://www.linkedin.com/in/tobias-hlo%C5%BEek-597328291/" target="_blank">1 clovek</a> a m&aacute; 0 prispevatele.</p>
+<center>
+
+
+<p style="text-allign:center" class="trida6">Na strance je registrováno 0 úctú.</p>
+
+</center>
+
+   <center> <h1 class="trida1">Podpor vyvoj tohoto projektu: </h1>
+<a href="https://paypal.me/tobisek" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/2560px-PayPal.svg.png" alt="PayPal" width="150" height="70" />
+</a>
+
+<a href="https://etherscan.io/address/0x545e4cb9A94338750eAB33Ac2e748104EbD74F65" target="_blank">
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/coindesk/ZJZZK5B2ZNF25LYQHMUTBTOMLU.png" alt="Crypto Wallet" width="100" height="70" />
+</a>
+
+<a href="https://prnt.sc/o5gMOAbWdTD-" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Komer%C4%8Dn%C3%AD_banka_logo.svg/1200px-Komer%C4%8Dn%C3%AD_banka_logo.svg.png" alt="Bankovní úcet" width="150" height="70" />
+</a>
+
+   <center> <h1 class="trida1">Pokud se pripravujes na maturitu, preklikni sem:</h1> </center>
+<a href="http://projektmaturita.aspfree.cz/" target="_blank">
+    <img src="https://www.bigyzr.cz/shared/clanky/ikony/5775.jpg?w=480" alt="Projekt Maturita" width="150" height="70" />
+
+</a>
+
+<center>
+
+    <footer> <p style="text-align:center">Pro spolupr&aacute;ci, doplnen&iacute; uciva nebo navrhnutí nov&eacute; funkce použ&iacute;j <a href="mailto:tobias.hlozek@seznam.cz">tento link.</a></p>
+<p style="text-align:center">Zdrojovy kod stranky najdes <a href="https://github.com/Tobiswaggy" target="_blank">zde.</a> Stranka funguje pouze na bazi HTML. Zatim nepodporuje mobilni prohlizece, doporucujeme prohlizet na pocitaci ve <a href="#fullscreen" id="fullscreen-link">fullscreenu.</a></p>
+
+<center>
+<p style="text-align:center" class="trida7">Tobias Hlozek © 2023</p> </center>
+</footer>
+
+ 
+  <link rel="shortcut icon" href="" />
+
+  </body>
+</html>

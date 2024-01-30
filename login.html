@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prihlášení</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .login-container {
+            width: 300px;
+            margin: 0 auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+        .login-container h2 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .form-group input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .forgot-password {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .back-button {
+            float: right;
+        }
+
+    }
+   .tobisek {
+   height:50%; 
+}
+
+    </style>
+</head>
+<body>
+    <a class="back-button" href="index.html">Zpet na hlavní stránku</a>
+    <div class="login-container">
+        <h2>Prihlášení</h2>
+        <form action="proces-prihlaseni.php" method="post">
+            <div class="form-group">
+                <label for="username">Uživatelské jméno:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Heslo:</label>
+                <input type="password" id="password" name "password" required>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Prihlásit se">
+            </div>
+        </form>
+        <div class="forgot-password">
+            <a href="zapomenute-heslo.php">Zapomnel jsem heslo</a> | <a href="problemy-s-prihlasenim.php">Problémy s prihlášením</a>
+        </div>
+    </div>
+
+<div class="tobisek"> </div>
+<div class="tobisek"> </div>
+<center>
+<img src="https://www.pngall.com/wp-content/uploads/12/Secure-HTTPS-Green-Symbol-PNG-Photo.png" alt="" width="120" height="75"> </img>
+</center>
+</body>
+</html>
